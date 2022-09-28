@@ -111,7 +111,7 @@ nav .logo {
   height: 42px;
   color: white;
   font-family: GillSans;
-  background-image: url(/images/logo/logo-white.png);
+  background-image: url(../images/logo/logo-white.png);
 }
 nav .links {
   height: 42px;
@@ -315,7 +315,7 @@ footer .logo {
   height: 42px;
   color: white;
   font-family: GillSans;
-  background-image: url(/images/logo/logo-white.png);
+  background-image: url(../images/logo/logo-white.png);
 }
 footer .copyright {
   color: white;
@@ -335,7 +335,7 @@ footer .social-icons {
       -ms-flex-pack: justify;
           justify-content: space-between;
   background-color: aqua;
-  background-image: url(/images/icons.png);
+  background-image: url(../images/icons.png);
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
