@@ -54,12 +54,11 @@
     .promo-trips {
         margin-top: -50px;
         min-height: 304px;
-        // background-color: rgba(0,0,0,.75);
+        background-color: rgba(0,0,0,.75);
         display: flex;
         align-items: center;
         justify-content: space-evenly;
-        padding-left: 100px;
-        padding-right: 100px;
+        padding: 20px;
 
     }
     .booking {
@@ -113,6 +112,7 @@
                     label{
                         font-size: 18px;
                         font-family: GillSans;
+                        // background-color: aquamarine;
                     }
                     input{
                         width: 103px;

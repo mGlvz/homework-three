@@ -27,6 +27,73 @@ h1, h2, h3, h4, h5, h6, p {
   font-family: Proxima;
   src: url(../css/fonts/ProximaNovaScOsfExtraCondensed.ttf);
 }
+@media only screen and (max-width: 760px) {
+  nav {
+    width: 300px;
+    background-color: rgba(0, 0, 0, 0.5);
+  }
+  nav .logo {
+    width: 42px;
+    height: 22px;
+    background-color: aqua;
+    background-image: url(../images/logo/logo-white.png);
+  }
+  nav .links {
+    height: 42px;
+    width: 100px;
+    color: white;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: space-evenly;
+        -ms-flex-pack: space-evenly;
+            justify-content: space-evenly;
+    background-color: blue;
+  }
+}
+@media only screen and (max-width: 760px) {
+  .promo-trips {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+
+  .trip {
+    margin-bottom: 20px;
+  }
+
+  .overlay {
+    position: relative;
+  }
+}
+@media only screen and (max-width: 760px) {
+  .two-inputs {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  .two-inputs .short-input input {
+    margin-bottom: 18px;
+  }
+
+  .three-inputs {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  .three-inputs .small-input label {
+    margin-bottom: 18px;
+  }
+  .three-inputs .small-input input {
+    margin-bottom: 18px;
+  }
+}
 .trip {
   width: 236px;
   height: 304px;
@@ -48,7 +115,7 @@ h1, h2, h3, h4, h5, h6, p {
 }
 .trip .overlay {
   width: 236px;
-  height: 304px;
+  height: 325px;
   position: absolute;
   background-color: rgba(0, 0, 0, 0.3);
   top: 450px;
@@ -195,6 +262,7 @@ nav .links a {
 .home .promo-trips {
   margin-top: -50px;
   min-height: 304px;
+  background-color: rgba(0, 0, 0, 0.75);
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -204,8 +272,7 @@ nav .links a {
   -webkit-box-pack: space-evenly;
       -ms-flex-pack: space-evenly;
           justify-content: space-evenly;
-  padding-left: 100px;
-  padding-right: 100px;
+  padding: 20px;
 }
 .home .booking {
   min-height: 400px;
